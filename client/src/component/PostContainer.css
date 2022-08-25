@@ -1,0 +1,13 @@
+.posts .post-title{
+    text-align: center;
+}
+
+.all-posts-container {
+    min-height: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.all-posts {
+ 
+}

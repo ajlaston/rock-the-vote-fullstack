@@ -1,0 +1,52 @@
+
+
+.login-form-container {
+    /* border: 1px solid; */
+    padding: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 8px;
+}
+
+.login-form-container h2{
+    text-align: center;
+    margin-top: 0;color: rgb(62, 62, 65);
+
+}
+
+.login-form-container form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.login-form-container form input{
+    height: 35px;
+    padding: 5px;
+    border-radius: 5px;
+    /* border: 1px solid rgb(205, 205, 205); */
+    border: none;
+    font-size: 16px;
+}
+
+.login-form button{
+    margin-top: 10px;
+    height: 47px;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgba(57, 111, 237, 0.936), rgba(65, 93, 254, 0.912))  ;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.login-cta button{
+    color: rgb(36, 36, 196);
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+}
+

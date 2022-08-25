@@ -1,0 +1,25 @@
+.loader {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes loading {
+   from {
+    width: 4px;
+   } 
+
+   to {
+    width: 50px;
+   }
+}
+
+.ball {
+    background-color: red;
+    width: 100px;
+    height: 4px;
+    border-radius: 200px;
+    animation: loading 1s infinite;
+}
+

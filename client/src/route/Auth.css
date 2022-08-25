@@ -1,0 +1,15 @@
+.auth-container {
+    height: 100%;
+
+    background-image: linear-gradient(rgba(198, 208, 221, 0.546), rgba(192, 196, 211, 0.72)) ,
+    url('../img/index.jpeg');
+
+    background-size: 680px;
+}
+
+.auth-wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

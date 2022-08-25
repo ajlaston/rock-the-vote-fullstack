@@ -1,0 +1,42 @@
+.create-post {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.form-container {
+    border: 1px solid;
+    padding: 15px;
+    
+}
+
+.form-container  h3{
+    text-align: center;
+}
+
+.post-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.post-form input {
+    width: 250px;
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.create-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.create-btn > button {
+    height: 30px;
+    width: 255px;
+    border: 1px solid;
+    border-radius: 5px;
+}

@@ -1,0 +1,15 @@
+.home-container {
+    flex : 1 1 auto 
+}
+
+.welcome-message {
+    display: flex;
+    justify-content: center;
+}
+
+.post-container {
+    margin-top: 50px;
+}
+
+
+
